@@ -530,7 +530,7 @@ Based on MT Bench average scores, the Ghost 8B Beta scores very close to other m
 
 With MT Bench's plot we will see some other more specific things. In STEM, writing and roleplay scores, the model is at the same level as GPT 4, notably the score in STEM is at an absolute level similar to GPT 4.
 
-![MT Bench, Plots](./images/mt-bench-plots.png)
+![MT Bench, Plots](https://ghost-x.org/docs/models/ghost-8b-beta/images/mt-bench-plots_hu388fe663aadaf41c7aa98d16649cd0a8_103514_971x525_resize_q85_h2_lanczos_3.webp)
 
 #### A quick talk about MT Bench
 
