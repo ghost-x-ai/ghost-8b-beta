@@ -47,7 +47,7 @@ Xin chào! Tôi là Ghost 8B Beta, một trợ lý AI thân thiện muốn giúp
 
 ### Specifications
 
-- Name: **Ghost 8B Beta (aka: Ghost 8B Beta Llama3)**.
+- Name: **Ghost 8B Beta (aka: Llama 3 - Ghost 8B Beta)**.
 - Version: **disl-0x5 (aka: d0x5)**.
 - Model size: 8 billion parameters.
 - Context length: 8K, 8192 / 128K, 131072.
@@ -56,7 +56,6 @@ Xin chào! Tôi là Ghost 8B Beta, một trợ lý AI thân thiện muốn giúp
 - License: [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 - Distributions: Standard (BF16), GGUF, AWQ.
 - Developed by: **Ghost X**, [Hieu Lam](https://huggingface.co/lamhieu).
-- Status: Moderating / Previewing.
 
 #### Links
 
