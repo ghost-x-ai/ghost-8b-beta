@@ -47,13 +47,13 @@ Xin chào! Tôi là Ghost 8B Beta, một trợ lý AI thân thiện muốn giúp
 
 ### Specifications
 
-- Name: **Ghost 8B Beta**.
+- Name: **Ghost 8B Beta (aka: Ghost 8B Beta Llama3)**.
 - Version: **disl-0x5 (aka: d0x5)**.
 - Model size: 8 billion parameters.
 - Context length: 8K, 8192 / 128K, 131072.
 - Languages: 🇺🇸 English, 🇫🇷 French, 🇮🇹 Italian, 🇪🇸 Spanish, 🇵🇹 Portuguese, 🇩🇪 German, 🇻🇳 Vietnamese, 🇰🇷 Korean, 🇨🇳 Chinese.
 - Main tasks: as a pretrained model, chat, multi-tasking and function tools.
-- License: [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license).
+- License: [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 - Distributions: Standard (BF16), GGUF, AWQ.
 - Developed by: **Ghost X**, [Hieu Lam](https://huggingface.co/lamhieu).
 - Status: Moderating / Previewing.
@@ -69,17 +69,18 @@ Xin chào! Tôi là Ghost 8B Beta, một trợ lý AI thân thiện muốn giúp
 
 We create many distributions to give you the best access options that best suit your needs.
 
-| Version | Model card                                                           |
-| ------- | -------------------------------------------------------------------- |
+| Version | Model card                                                          |
+| ------- | ------------------------------------------------------------------- |
 | BF16    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta)      |
 | GGUF    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-gguf) |
 | AWQ     | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-awq)  |
 
 ### License
 
-The Ghost 8B Beta model is released under the [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license).
+The Ghost 8B Beta model is released under the [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 
 You can also understand it as:
+
 - For individuals, you are free to use the model for personal and research purposes.
 - For commercial, we encourage the development of new products, synthetic data or models for commercial use with Ghost 8B Beta, please contact us for licensing.
 
