@@ -1,4 +1,4 @@
-# Ghost 8B Beta
+# Ghost 8B Beta (1608)
 
 <p><img src="https://ghost-x.org/docs/models/ghost-8b-beta/images/logo.jpeg" width="40%" align="center" /></p>
 
@@ -6,52 +6,25 @@ A large language model was developed with goals including excellent multilingual
 
 ## Introduction
 
-**Ghost 8B Beta** is a large language model developed with goals that include excellent multilingual support, superior knowledge capabilities, and cost-effectiveness. The model comes in two context length versions, 8k and 128k, along with multilingual function tools support by default.
+**Ghost 8B Beta (Llama 3 - Ghost 8B Beta)** is a large language model developed with goals that include excellent multilingual support, superior knowledge capabilities, and cost-effectiveness. The model comes in two context length versions, 8k and 128k, along with multilingual function tools support by default.
 
-The Ghost 8B Beta model outperforms prominent models such as Llama 3 8B Instruct, GPT 3.5 Turbo in the lc_winrate score. In addition, it also outperforms Claude 3 Opus, Claude 3 Sonnet, GPT-4, and Mistral Large when comparing the winrate score of AlpacaEval 2.0, [\*](https://ghost-x.org/docs/models/ghost-8b-beta/#alpacaeval-20).
+The Ghost 8B Beta model outperforms prominent models such as Llama 3.1 8B Instruct, GPT 3.5 Turbo in the lc_winrate score. In addition, it also outperforms Claude 3 Opus, Claude 3 Sonnet, GPT-4, and Mistral Large when comparing the winrate score of AlpacaEval 2.0, [\*](https://ghost-x.org/docs/models/ghost-8b-beta/#alpacaeval-20).
+
+### Updates
+
+* **16 Aug 2024**: The model has been released to version 160824, expanding support from 9 languages ​​to 16 languages. The model has improved math, reasoning, and following instructions better than the previous version.
 
 ### Thoughts
 
 We believe that it is possible to optimize language models that are not too large to achieve better capabilities in terms of cross-linguistic understanding and solving complex tasks. The potential of these models is often mentioned as being cost-effective when deployed and operated at the production level for both large businesses and startups. By doing this well, we can partly eliminate worries about the cost of GPUs that hinder the development of useful A.I ideas and products for humans.
 
-### Haloo
-
-Welcome to the multilingual world! 🌎
-
-**🇺🇸 English:**
-Hello there! I'm Ghost 8B Beta, a friendly AI assistant ready to help you navigate the world of language. What's the most popular fast food chain in the US? 🍔 (Because who doesn't love a good burger?)
-
-**🇫🇷 French:**
-Bonjour! Je suis Ghost 8B Beta, un assistant IA amical prêt à vous aider à explorer le monde des langues. Que pensez-vous de la cuisine française? 🍽 (Parce que la cuisine française est un art!)
-
-**🇮🇹 Italian:**
-Ciao! Sono Ghost 8B Beta, un assistente AI amichevole pronto a aiutarvi a esplorare il mondo delle lingue. Qual è la cosa più divertente da fare a Roma? 🏰 (Perché Roma è una città ricca di storia e cultura!)
-
-**🇪🇸 Spanish:**
-Hola! Soy Ghost 8B Beta, un asistente IA amigable listo para ayudarte a explorar el mundo de los idiomas. ¿Qué te parece el flamenco? 🎶 (Porque el flamenco es una forma de arte vibrante y emocional!)
-
-**🇵🇹 Portuguese:**
-Olá! Sou Ghost 8B Beta, um assistente IA amigável pronto para ajudar você a explorar o mundo das línguas. O que você acha do futebol brasileiro? 🏟️ (Porque o futebol brasileiro é uma paixão nacional!)
-
-**🇩🇪 German:**
-Hallo! Ich bin Ghost 8B Beta, ein freundlicher AI-Assistent, der Ihnen beim Erkunden der Welt der Sprachen helfen möchte. Was ist das beliebteste Getränk in Deutschland? 🍻 (Weil das Bier in Deutschland eine Kultur ist!)
-
-**🇻🇳 Vietnamese:**
-Xin chào! Tôi là Ghost 8B Beta, một trợ lý AI thân thiện muốn giúp bạn khám phá thế giới ngôn ngữ. Bạn có thích ăn phở không? 🍜 (Vì phở là một món ăn đặc trưng của Việt Nam!)
-
-**🇰🇷 Korean:**
-안녕하세요! 저는 Ghost 8B Beta, 친절한 AI 어시스턴트입니다. 언어 세계를 탐험하는 데 도움을 드릴게요. 한국의 대표적인 음식은 무엇인가요? 🍜 (한국 음식은 맛과 향이 풍부해서 꼭 한번 맛보세요!)
-
-**🇨🇳 Chinese:**
-你好! 我是 Ghost 8B Beta，一位友好的 AI 助手，欢迎您来到语言的世界。您觉得中国菜怎么样？ 🍜 (中国菜种类繁多，口味丰富，相信您一定会喜欢！)
-
 ### Specifications
 
 - Name: **Ghost 8B Beta (aka: Llama 3 - Ghost 8B Beta)**.
-- Version: **disl-0x5 (aka: d0x5)**.
+- Version: **160824 (aka: 1608)**, previously **disl-0x5 (aka: d0x5)**.
 - Model size: 8 billion parameters.
 - Context length: 8K, 8192 / 128K, 131072.
-- Languages: 🇺🇸 English, 🇫🇷 French, 🇮🇹 Italian, 🇪🇸 Spanish, 🇵🇹 Portuguese, 🇩🇪 German, 🇻🇳 Vietnamese, 🇰🇷 Korean, 🇨🇳 Chinese.
+- Languages: 🇬🇧 English, 🇻🇳 Vietnamese, 🇰🇷 Korean, 🇪🇸 Spanish, 🇵🇹 Portuguese, 🇨🇳 Chinese, 🇫🇷 French, 🇮🇹 Italian, 🇩🇪 German, 🇯🇵 Japanese, 🇷🇺 Russian, 🇵🇱 Polish, 🇳🇱 Dutch, 🇮🇳 Hindi, 🇹🇷 Turkish, 🇮🇩 Indonesian.
 - Main tasks: as a pretrained model, chat, multi-tasking and function tools.
 - License: [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 - Distributions: Standard (BF16), GGUF, AWQ.
@@ -70,20 +43,13 @@ We create many distributions to give you the best access options that best suit 
 
 | Version | Model card                                                          |
 | ------- | ------------------------------------------------------------------- |
-| BF16    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta)      |
-| GGUF    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-gguf) |
-| AWQ     | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-awq)  |
+| BF16    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608)      |
+| GGUF    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608-gguf) |
+| AWQ     | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608-awq)  |
 
 ### License
 
 The Ghost 8B Beta model is released under the [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
-
-You can also understand it as:
-
-- For individuals, you are free to use the model for personal and research purposes.
-- For commercial, we encourage the development of new products, synthetic data or models for commercial use with Ghost 8B Beta, please contact us for licensing.
-
-For details, please refer to the license page.
 
 ### Techniques
 
@@ -187,7 +153,7 @@ For direct use with `transformers`, you can easily get started with the followin
       AutoTokenizer,
   )
 
-  base_model = "ghost-x/ghost-8b-beta"
+  base_model = "ghost-x/ghost-8b-beta-1608"
   model = AutoModelForCausalLM.from_pretrained(
       base_model,
       torch_dtype=torch.bfloat16,
@@ -218,7 +184,7 @@ For direct use with `transformers`, you can easily get started with the followin
       BitsAndBytesConfig,
   )
 
-  base_model = "ghost-x/ghost-8b-beta"
+  base_model = "ghost-x/ghost-8b-beta-1608"
   bnb_config = BitsAndBytesConfig(
       load_in_4bit=True,
       bnb_4bit_quant_type="nf4",
@@ -440,7 +406,7 @@ For deployment, we recommend using vLLM. You can enable the long-context capabil
 - Utilize vLLM to deploy your model. For instance, you can set up an openAI-like server using the command:
 
   ```bash
-  python -m vllm.entrypoints.openai.api_server --served-model-name ghost-8b-beta --model ghost-x/ghost-8b-beta
+  python -m vllm.entrypoints.openai.api_server --served-model-name ghost-8b-beta --model ghost-x/ghost-8b-beta-1608
   ```
 
 - Try it now:
@@ -529,7 +495,7 @@ Based on MT Bench average scores, the Ghost 8B Beta scores very close to other m
 
 With MT Bench's plot we will see some other more specific things. In STEM, writing and roleplay scores, the model is at the same level as GPT 4, notably the score in STEM is at an absolute level similar to GPT 4.
 
-![MT Bench, Plots](https://ghost-x.org/docs/models/ghost-8b-beta/images/mt-bench-plots_hu388fe663aadaf41c7aa98d16649cd0a8_103514_971x525_resize_q85_h2_lanczos_3.webp)
+![MT Bench, Plots](./images/mt-bench-plots.png)
 
 #### A quick talk about MT Bench
 
@@ -752,6 +718,10 @@ The rankings are referenced from this [leaderboard](https://huggingface.co/space
 Other evaluations will be done soon and updated here later.
 
 ## Notes
+
+If the model is interesting or helpful to your work, feel free to buy me a beer and let's raise a glass. It will motivate me to improve the model in the future. 🍻
+
+<a href="https://www.buymeacoffee.com/lh0x00" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ### Thanks
 
