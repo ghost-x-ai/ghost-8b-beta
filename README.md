@@ -51,6 +51,11 @@ We create many distributions to give you the best access options that best suit 
 
 The Ghost 8B Beta model is released under the [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 
+* For individuals, the model is free to use for personal and research purposes.
+* For commercial use of Ghost 8B Beta, it's also free, but please contact us for confirmation. You can email us at "lamhieu.vk [at] gmail.com" with a brief introduction of your project. If possible, include your logo so we can feature it as a case study. We will confirm your permission to use the model. For commercial use as a service, no email confirmation is needed, but we'd appreciate a notification so we can keep track and potentially recommend your services to partners using the model.
+
+Additionally, it would be great if you could mention or credit the model when it benefits your work.
+
 ### Techniques
 
 The model is further trained based on [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B).
