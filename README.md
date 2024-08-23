@@ -12,7 +12,7 @@ The Ghost 8B Beta model outperforms prominent models such as Llama 3.1 8B Instru
 
 ### Updates
 
-* **16 Aug 2024**: The model has been released to version 160824, expanding support from 9 languages ​​to 16 languages. The model has improved math, reasoning, and following instructions better than the previous version.
+- **16 Aug 2024**: The model has been released to version 160824, expanding support from 9 languages ​​to 16 languages. The model has improved math, reasoning, and following instructions better than the previous version.
 
 ### Thoughts
 
@@ -41,18 +41,19 @@ We believe that it is possible to optimize language models that are not too larg
 
 We create many distributions to give you the best access options that best suit your needs.
 
-| Version | Model card                                                          |
-| ------- | ------------------------------------------------------------------- |
+| Version | Model card                                                               |
+| ------- | ------------------------------------------------------------------------ |
 | BF16    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608)      |
 | GGUF    | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608-gguf) |
 | AWQ     | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608-awq)  |
+| MLX     | [🤗 HuggingFace](https://huggingface.co/ghost-x/ghost-8b-beta-1608-mlx)  |
 
 ### License
 
 The Ghost 8B Beta model is released under the [Ghost Open LLMs LICENSE](https://ghost-x.org/ghost-open-llms-license), [Llama 3 LICENSE](https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/LICENSE).
 
-* For individuals, the model is free to use for personal and research purposes.
-* For commercial use of Ghost 8B Beta, it's also free, but please contact us for confirmation. You can email us at "lamhieu.vk [at] gmail.com" with a brief introduction of your project. If possible, include your logo so we can feature it as a case study. We will confirm your permission to use the model. For commercial use as a service, no email confirmation is needed, but we'd appreciate a notification so we can keep track and potentially recommend your services to partners using the model.
+- For individuals, the model is free to use for personal and research purposes.
+- For commercial use of Ghost 8B Beta, it's also free, but please contact us for confirmation. You can email us at "lamhieu.vk [at] gmail.com" with a brief introduction of your project. If possible, include your logo so we can feature it as a case study. We will confirm your permission to use the model. For commercial use as a service, no email confirmation is needed, but we'd appreciate a notification so we can keep track and potentially recommend your services to partners using the model.
 
 Additionally, it would be great if you could mention or credit the model when it benefits your work.
 
@@ -267,6 +268,30 @@ For direct use with `unsloth`, you can easily get started with the following ste
   results = tokenizer.batch_decode(outputs)[0]
   print(results)
   ```
+
+#### Use with MLX
+
+For direct use with `mlx`, you can easily get started with the following steps.
+
+- Firstly, you need to install unsloth via the command below with `pip`.
+  
+  ```bash
+  pip install mlx-lm
+  ```
+
+- Right now, you can start using the model directly.
+  ```python
+  from mlx_lm import load, generate
+  
+  model, tokenizer = load("ghost-x/ghost-8b-beta-1608-mlx")
+  messages = [
+      {"role": "system", "content": ""},
+      {"role": "user", "content": "Why is the sky blue ?"},
+  ]
+  prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+  response = generate(model, tokenizer, prompt=prompt, verbose=True)
+  ```
+
 
 ### Instructions
 
